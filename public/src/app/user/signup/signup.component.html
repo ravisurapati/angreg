@@ -1,0 +1,36 @@
+<section class="testimonial py-5 fadeInDown" id="testimonial">
+    <div class="container " id="signupContent">
+        <div class="row ">
+            <div class="col-md-4 py-5 bg-primary text-white text-center ">
+                <div class="card-body">
+                    <img src="http://www.ansonika.com/mavia/img/registration_bg.svg" style="width:30%">
+                    <h2 class="py-3">Registration</h2>
+                    <p>Tation argumentum et usu, dicit viderer evertitur te has. Eu dictas concludaturque usu,
+                        facete detracto patrioque an per, lucilius pertinacia eu vel.
+                    </p>
+                </div>
+                <a class="underlineHover" routerLink="/user/login">Already have an account? Sign In</a>
+            </div>
+            <div class="col-md-8 py-5 border">
+                <h4 class="pb-4">Please fill with your details</h4>
+                <signup-form></signup-form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="fadeIn" type="checkbox" value="" id="invalidCheck2"
+                                   required>
+                            <label class="form-check-label" for="invalidCheck2">
+                                <small>By clicking Submit, you agree to our Terms & Conditions, Visitor
+                                    Agreement and Privacy Policy.
+                                </small>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <input type="submit" class="fadeIn" value="Signup" (click)="signup()">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
